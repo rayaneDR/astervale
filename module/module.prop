@@ -1,0 +1,6 @@
+id=astervale_layer
+name=AsterVale Optional Layer
+version=0.1.0-preview
+versionCode=1
+author=AsterVale contributors
+description=SM-A515F Android 16 diagnostic and reversible opt-in debloat module. No tuning applied automatically. Hardware untested.
