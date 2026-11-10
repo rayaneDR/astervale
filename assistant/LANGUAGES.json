@@ -1,0 +1,18 @@
+{
+  "default": "en",
+  "locales": [
+    "en",
+    "ar",
+    "ary",
+    "ary-Latn",
+    "fr",
+    "es",
+    "pt",
+    "ru",
+    "tr",
+    "hi",
+    "zh"
+  ],
+  "status": "Curated routing lexicon. Not universal language recognition, speech or LLM benchmark. Native-speaker review pending.",
+  "rule_count": 99
+}

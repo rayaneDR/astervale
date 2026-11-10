@@ -18,3 +18,7 @@ out/
 .env*
 vendor/samsung/
 __pycache__/
+.gradle/
+local.properties
+**/build/
+dist/

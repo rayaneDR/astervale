@@ -1,0 +1,26 @@
+name: Layer preview prerelease
+on:
+  push:
+    tags: ['layer-v*']
+permissions:
+  contents: write
+jobs:
+  layer:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-java@7a445ee88d4e23b52c33fdc760091ecad2b7a9eb
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Check, build and package
+        run: |
+          python3 -m unittest discover -s tests -v
+          bash gradlew --no-daemon :layer:assembleDebug
+          python3 tools/package_layer.py
+      - name: Publish experimental layer (never a ROM)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: gh release create "$RELEASE_TAG" dist/*.apk dist/*.zip dist/SHA256SUMS dist/artifacts.json --prerelease --title "AsterVale layer preview (hardware untested)" --notes-file docs/releases/layer-preview.md

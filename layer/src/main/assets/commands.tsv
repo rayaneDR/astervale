@@ -1,0 +1,100 @@
+# locale	action	regex	English tool IDs, localized explanation; curated command routing only
+en	WIFI	(?<![\p{L}\p{N}])(?:wi-?fi|wireless network)(?![\p{L}\p{N}])	I can open the relevant Android controls. Review and make the change there.
+en	BLUETOOTH	(?<![\p{L}\p{N}])(?:bluetooth)(?![\p{L}\p{N}])	I can open the relevant Android controls. Review and make the change there.
+en	BATTERY	(?<![\p{L}\p{N}])(?:battery|power sav)(?![\p{L}\p{N}])	I can open the relevant Android controls. Review and make the change there.
+en	SETTINGS	(?<![\p{L}\p{N}])(?:settings|preferences)(?![\p{L}\p{N}])	I can open the relevant Android controls. Review and make the change there.
+en	BRIGHTNESS	(?<![\p{L}\p{N}])(?:brightness|screen light)(?![\p{L}\p{N}])	I can open the relevant Android controls. Review and make the change there.
+en	VOLUME	(?<![\p{L}\p{N}])(?:volume|sound level)(?![\p{L}\p{N}])	I can open the relevant Android controls. Review and make the change there.
+en	DND	(?<![\p{L}\p{N}])(?:do not disturb|focus mode)(?![\p{L}\p{N}])	I can open the relevant Android controls. Review and make the change there.
+en	ALARM	(?<![\p{L}\p{N}])(?:alarm)(?![\p{L}\p{N}])	I can open the relevant Android controls. Review and make the change there.
+en	TIMER	(?<![\p{L}\p{N}])(?:timer|countdown)(?![\p{L}\p{N}])	I can open the relevant Android controls. Review and make the change there.
+ar	WIFI	(?:واي فاي|واي.?فاي|الواي فاي)	يمكنني فتح عناصر التحكم المناسبة في أندرويد. راجع التغيير ونفّذه هناك.
+ar	BLUETOOTH	(?:بلوتوث|البلوتوث)	يمكنني فتح عناصر التحكم المناسبة في أندرويد. راجع التغيير ونفّذه هناك.
+ar	BATTERY	(?:بطاري|توفير الطاق)	يمكنني فتح عناصر التحكم المناسبة في أندرويد. راجع التغيير ونفّذه هناك.
+ar	SETTINGS	(?:الإعدادات|الاعدادات)	يمكنني فتح عناصر التحكم المناسبة في أندرويد. راجع التغيير ونفّذه هناك.
+ar	BRIGHTNESS	(?:سطوع|إضاءة الشاشة)	يمكنني فتح عناصر التحكم المناسبة في أندرويد. راجع التغيير ونفّذه هناك.
+ar	VOLUME	(?:صوت|الصوت)	يمكنني فتح عناصر التحكم المناسبة في أندرويد. راجع التغيير ونفّذه هناك.
+ar	DND	(?:عدم الإزعاج|عدم الازعاج)	يمكنني فتح عناصر التحكم المناسبة في أندرويد. راجع التغيير ونفّذه هناك.
+ar	ALARM	(?:منبه|المنبه)	يمكنني فتح عناصر التحكم المناسبة في أندرويد. راجع التغيير ونفّذه هناك.
+ar	TIMER	(?:مؤقت|المؤقت)	يمكنني فتح عناصر التحكم المناسبة في أندرويد. راجع التغيير ونفّذه هناك.
+ary	WIFI	(?:الويفي|ويفي|الوايفاي)	نقدر نحل ليك الإعدادات ديال هاد الحاجة. شوف التغيير وديرو نتا تما.
+ary	BLUETOOTH	(?:البلوتوت|بلوتوت)	نقدر نحل ليك الإعدادات ديال هاد الحاجة. شوف التغيير وديرو نتا تما.
+ary	BATTERY	(?:الباطري|باطري|توفير البطارية)	نقدر نحل ليك الإعدادات ديال هاد الحاجة. شوف التغيير وديرو نتا تما.
+ary	SETTINGS	(?:ليبارامتر|البارامتر|الإعدادات)	نقدر نحل ليك الإعدادات ديال هاد الحاجة. شوف التغيير وديرو نتا تما.
+ary	BRIGHTNESS	(?:الضو|ضو الشاشة)	نقدر نحل ليك الإعدادات ديال هاد الحاجة. شوف التغيير وديرو نتا تما.
+ary	VOLUME	(?:الصوت|صوت التليفون)	نقدر نحل ليك الإعدادات ديال هاد الحاجة. شوف التغيير وديرو نتا تما.
+ary	DND	(?:بلا صداع|بلا ازعاج)	نقدر نحل ليك الإعدادات ديال هاد الحاجة. شوف التغيير وديرو نتا تما.
+ary	ALARM	(?:ريفي|الريفي)	نقدر نحل ليك الإعدادات ديال هاد الحاجة. شوف التغيير وديرو نتا تما.
+ary	TIMER	(?:كونطور|مينوتور)	نقدر نحل ليك الإعدادات ديال هاد الحاجة. شوف التغيير وديرو نتا تما.
+ary-Latn	WIFI	(?<![\p{L}\p{N}])(?:wifi|l?wifi)(?![\p{L}\p{N}])	N9der n7ell lik settings dyal had l7aja. Chof ttbdil w diro nta temma.
+ary-Latn	BLUETOOTH	(?<![\p{L}\p{N}])(?:blotot|bloutout|bluetooth)(?![\p{L}\p{N}])	N9der n7ell lik settings dyal had l7aja. Chof ttbdil w diro nta temma.
+ary-Latn	BATTERY	(?<![\p{L}\p{N}])(?:batri|batterie|battery)(?![\p{L}\p{N}])	N9der n7ell lik settings dyal had l7aja. Chof ttbdil w diro nta temma.
+ary-Latn	SETTINGS	(?<![\p{L}\p{N}])(?:parametr|settings|reglages)(?![\p{L}\p{N}])	N9der n7ell lik settings dyal had l7aja. Chof ttbdil w diro nta temma.
+ary-Latn	BRIGHTNESS	(?<![\p{L}\p{N}])(?:daw|do dyal|brightness)(?![\p{L}\p{N}])	N9der n7ell lik settings dyal had l7aja. Chof ttbdil w diro nta temma.
+ary-Latn	VOLUME	(?<![\p{L}\p{N}])(?:sot|sout|volume)(?![\p{L}\p{N}])	N9der n7ell lik settings dyal had l7aja. Chof ttbdil w diro nta temma.
+ary-Latn	DND	(?<![\p{L}\p{N}])(?:bla sda3|dnd)(?![\p{L}\p{N}])	N9der n7ell lik settings dyal had l7aja. Chof ttbdil w diro nta temma.
+ary-Latn	ALARM	(?<![\p{L}\p{N}])(?:reveil|alarm)(?![\p{L}\p{N}])	N9der n7ell lik settings dyal had l7aja. Chof ttbdil w diro nta temma.
+ary-Latn	TIMER	(?<![\p{L}\p{N}])(?:minuteur|timer)(?![\p{L}\p{N}])	N9der n7ell lik settings dyal had l7aja. Chof ttbdil w diro nta temma.
+fr	WIFI	(?<![\p{L}\p{N}])(?:wi-?fi|reseau sans fil|réseau sans fil)(?![\p{L}\p{N}])	Je peux ouvrir les commandes Android correspondantes. Vérifiez et effectuez le changement vous-même.
+fr	BLUETOOTH	(?<![\p{L}\p{N}])(?:bluetooth)(?![\p{L}\p{N}])	Je peux ouvrir les commandes Android correspondantes. Vérifiez et effectuez le changement vous-même.
+fr	BATTERY	(?<![\p{L}\p{N}])(?:batterie|économie d.énergie)(?![\p{L}\p{N}])	Je peux ouvrir les commandes Android correspondantes. Vérifiez et effectuez le changement vous-même.
+fr	SETTINGS	(?<![\p{L}\p{N}])(?:paramètres|parametres|réglages)(?![\p{L}\p{N}])	Je peux ouvrir les commandes Android correspondantes. Vérifiez et effectuez le changement vous-même.
+fr	BRIGHTNESS	(?<![\p{L}\p{N}])(?:luminosité|luminosite)(?![\p{L}\p{N}])	Je peux ouvrir les commandes Android correspondantes. Vérifiez et effectuez le changement vous-même.
+fr	VOLUME	(?<![\p{L}\p{N}])(?:volume|niveau sonore)(?![\p{L}\p{N}])	Je peux ouvrir les commandes Android correspondantes. Vérifiez et effectuez le changement vous-même.
+fr	DND	(?<![\p{L}\p{N}])(?:ne pas déranger|mode concentration)(?![\p{L}\p{N}])	Je peux ouvrir les commandes Android correspondantes. Vérifiez et effectuez le changement vous-même.
+fr	ALARM	(?<![\p{L}\p{N}])(?:réveil|reveil|alarme)(?![\p{L}\p{N}])	Je peux ouvrir les commandes Android correspondantes. Vérifiez et effectuez le changement vous-même.
+fr	TIMER	(?<![\p{L}\p{N}])(?:minuteur|compte à rebours)(?![\p{L}\p{N}])	Je peux ouvrir les commandes Android correspondantes. Vérifiez et effectuez le changement vous-même.
+es	WIFI	(?<![\p{L}\p{N}])(?:wi-?fi|red inalámbrica)(?![\p{L}\p{N}])	Puedo abrir los controles de Android. Revisa y realiza el cambio allí.
+es	BLUETOOTH	(?<![\p{L}\p{N}])(?:bluetooth)(?![\p{L}\p{N}])	Puedo abrir los controles de Android. Revisa y realiza el cambio allí.
+es	BATTERY	(?<![\p{L}\p{N}])(?:batería|bateria|ahorro de energía)(?![\p{L}\p{N}])	Puedo abrir los controles de Android. Revisa y realiza el cambio allí.
+es	SETTINGS	(?<![\p{L}\p{N}])(?:ajustes|configuración)(?![\p{L}\p{N}])	Puedo abrir los controles de Android. Revisa y realiza el cambio allí.
+es	BRIGHTNESS	(?<![\p{L}\p{N}])(?:brillo|luz de pantalla)(?![\p{L}\p{N}])	Puedo abrir los controles de Android. Revisa y realiza el cambio allí.
+es	VOLUME	(?<![\p{L}\p{N}])(?:volumen|nivel de sonido)(?![\p{L}\p{N}])	Puedo abrir los controles de Android. Revisa y realiza el cambio allí.
+es	DND	(?<![\p{L}\p{N}])(?:no molestar)(?![\p{L}\p{N}])	Puedo abrir los controles de Android. Revisa y realiza el cambio allí.
+es	ALARM	(?<![\p{L}\p{N}])(?:alarma|despertador)(?![\p{L}\p{N}])	Puedo abrir los controles de Android. Revisa y realiza el cambio allí.
+es	TIMER	(?<![\p{L}\p{N}])(?:temporizador|cuenta atrás)(?![\p{L}\p{N}])	Puedo abrir los controles de Android. Revisa y realiza el cambio allí.
+pt	WIFI	(?<![\p{L}\p{N}])(?:wi-?fi|rede sem fios)(?![\p{L}\p{N}])	Posso abrir os controlos do Android. Reveja e faça a alteração aí.
+pt	BLUETOOTH	(?<![\p{L}\p{N}])(?:bluetooth)(?![\p{L}\p{N}])	Posso abrir os controlos do Android. Reveja e faça a alteração aí.
+pt	BATTERY	(?<![\p{L}\p{N}])(?:bateria|poupança de energia)(?![\p{L}\p{N}])	Posso abrir os controlos do Android. Reveja e faça a alteração aí.
+pt	SETTINGS	(?<![\p{L}\p{N}])(?:definições|configurações)(?![\p{L}\p{N}])	Posso abrir os controlos do Android. Reveja e faça a alteração aí.
+pt	BRIGHTNESS	(?<![\p{L}\p{N}])(?:brilho|luz da tela)(?![\p{L}\p{N}])	Posso abrir os controlos do Android. Reveja e faça a alteração aí.
+pt	VOLUME	(?<![\p{L}\p{N}])(?:volume|nível de som)(?![\p{L}\p{N}])	Posso abrir os controlos do Android. Reveja e faça a alteração aí.
+pt	DND	(?<![\p{L}\p{N}])(?:não perturbar)(?![\p{L}\p{N}])	Posso abrir os controlos do Android. Reveja e faça a alteração aí.
+pt	ALARM	(?<![\p{L}\p{N}])(?:alarme|despertador)(?![\p{L}\p{N}])	Posso abrir os controlos do Android. Reveja e faça a alteração aí.
+pt	TIMER	(?<![\p{L}\p{N}])(?:temporizador|contagem regressiva)(?![\p{L}\p{N}])	Posso abrir os controlos do Android. Reveja e faça a alteração aí.
+ru	WIFI	(?:вай.?фай|беспроводн)	Я могу открыть нужные настройки Android. Проверьте и измените их самостоятельно.
+ru	BLUETOOTH	(?:блютуз)	Я могу открыть нужные настройки Android. Проверьте и измените их самостоятельно.
+ru	BATTERY	(?:батаре|энергосбереж)	Я могу открыть нужные настройки Android. Проверьте и измените их самостоятельно.
+ru	SETTINGS	(?:настройки)	Я могу открыть нужные настройки Android. Проверьте и измените их самостоятельно.
+ru	BRIGHTNESS	(?:яркост)	Я могу открыть нужные настройки Android. Проверьте и измените их самостоятельно.
+ru	VOLUME	(?:громкост)	Я могу открыть нужные настройки Android. Проверьте и измените их самостоятельно.
+ru	DND	(?:не беспокоить)	Я могу открыть нужные настройки Android. Проверьте и измените их самостоятельно.
+ru	ALARM	(?:будильник)	Я могу открыть нужные настройки Android. Проверьте и измените их самостоятельно.
+ru	TIMER	(?:таймер)	Я могу открыть нужные настройки Android. Проверьте и измените их самостоятельно.
+tr	WIFI	(?<![\p{L}\p{N}])(?:wi-?fi|kablosuz)(?![\p{L}\p{N}])	İlgili Android denetimlerini açabilirim. Değişikliği orada gözden geçirip uygulayın.
+tr	BLUETOOTH	(?<![\p{L}\p{N}])(?:bluetooth)(?![\p{L}\p{N}])	İlgili Android denetimlerini açabilirim. Değişikliği orada gözden geçirip uygulayın.
+tr	BATTERY	(?<![\p{L}\p{N}])(?:pil|batarya|güç tasarrufu)(?![\p{L}\p{N}])	İlgili Android denetimlerini açabilirim. Değişikliği orada gözden geçirip uygulayın.
+tr	SETTINGS	(?<![\p{L}\p{N}])(?:ayarlar)(?![\p{L}\p{N}])	İlgili Android denetimlerini açabilirim. Değişikliği orada gözden geçirip uygulayın.
+tr	BRIGHTNESS	(?<![\p{L}\p{N}])(?:parlaklık)(?![\p{L}\p{N}])	İlgili Android denetimlerini açabilirim. Değişikliği orada gözden geçirip uygulayın.
+tr	VOLUME	(?<![\p{L}\p{N}])(?:ses düzeyi|ses seviyesi)(?![\p{L}\p{N}])	İlgili Android denetimlerini açabilirim. Değişikliği orada gözden geçirip uygulayın.
+tr	DND	(?<![\p{L}\p{N}])(?:rahatsız etme)(?![\p{L}\p{N}])	İlgili Android denetimlerini açabilirim. Değişikliği orada gözden geçirip uygulayın.
+tr	ALARM	(?<![\p{L}\p{N}])(?:alarm)(?![\p{L}\p{N}])	İlgili Android denetimlerini açabilirim. Değişikliği orada gözden geçirip uygulayın.
+tr	TIMER	(?<![\p{L}\p{N}])(?:zamanlayıcı|geri sayım)(?![\p{L}\p{N}])	İlgili Android denetimlerini açabilirim. Değişikliği orada gözden geçirip uygulayın.
+hi	WIFI	(?:वाई.?फाई|वाइफाइ)	मैं Android के संबंधित नियंत्रण खोल सकता हूँ। वहाँ बदलाव जाँचें और खुद लागू करें।
+hi	BLUETOOTH	(?:ब्लूटूथ)	मैं Android के संबंधित नियंत्रण खोल सकता हूँ। वहाँ बदलाव जाँचें और खुद लागू करें।
+hi	BATTERY	(?:बैटरी|ऊर्जा बचत)	मैं Android के संबंधित नियंत्रण खोल सकता हूँ। वहाँ बदलाव जाँचें और खुद लागू करें।
+hi	SETTINGS	(?:सेटिंग)	मैं Android के संबंधित नियंत्रण खोल सकता हूँ। वहाँ बदलाव जाँचें और खुद लागू करें।
+hi	BRIGHTNESS	(?:चमक|रोशनी)	मैं Android के संबंधित नियंत्रण खोल सकता हूँ। वहाँ बदलाव जाँचें और खुद लागू करें।
+hi	VOLUME	(?:आवाज़|आवाज|वॉल्यूम)	मैं Android के संबंधित नियंत्रण खोल सकता हूँ। वहाँ बदलाव जाँचें और खुद लागू करें।
+hi	DND	(?:परेशान न करें)	मैं Android के संबंधित नियंत्रण खोल सकता हूँ। वहाँ बदलाव जाँचें और खुद लागू करें।
+hi	ALARM	(?:अलार्म)	मैं Android के संबंधित नियंत्रण खोल सकता हूँ। वहाँ बदलाव जाँचें और खुद लागू करें।
+hi	TIMER	(?:टाइमर)	मैं Android के संबंधित नियंत्रण खोल सकता हूँ। वहाँ बदलाव जाँचें और खुद लागू करें।
+zh	WIFI	(?:无线网络|无线网|wifi)	我可以打开相应的 Android 控制项。请在那里检查并自行更改。
+zh	BLUETOOTH	(?:蓝牙)	我可以打开相应的 Android 控制项。请在那里检查并自行更改。
+zh	BATTERY	(?:电池|省电)	我可以打开相应的 Android 控制项。请在那里检查并自行更改。
+zh	SETTINGS	(?:设置)	我可以打开相应的 Android 控制项。请在那里检查并自行更改。
+zh	BRIGHTNESS	(?:亮度)	我可以打开相应的 Android 控制项。请在那里检查并自行更改。
+zh	VOLUME	(?:音量)	我可以打开相应的 Android 控制项。请在那里检查并自行更改。
+zh	DND	(?:勿扰|专注模式)	我可以打开相应的 Android 控制项。请在那里检查并自行更改。
+zh	ALARM	(?:闹钟)	我可以打开相应的 Android 控制项。请在那里检查并自行更改。
+zh	TIMER	(?:计时器|倒计时)	我可以打开相应的 Android 控制项。请在那里检查并自行更改。

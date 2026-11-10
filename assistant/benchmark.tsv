@@ -1,0 +1,126 @@
+language	input	expected
+en	Please show Wi-Fi controls	WIFI
+en	Where can I adjust Bluetooth?	BLUETOOTH
+en	Use battery saver please	BATTERY
+en	Take me to settings	SETTINGS
+en	Make the screen brightness lower	BRIGHTNESS
+en	Turn the volume down	VOLUME
+en	Start focus mode	DND
+en	Show my alarm	ALARM
+en	I need a timer	TIMER
+en	Do not open Wi-Fi	UNKNOWN
+en	Tell me a joke	UNKNOWN
+ar	افتح الواي فاي من فضلك	WIFI
+ar	أريد إعدادات البلوتوث	BLUETOOTH
+ar	فعّل توفير الطاقة	BATTERY
+ar	افتح الإعدادات	SETTINGS
+ar	خفّض السطوع	BRIGHTNESS
+ar	ارفع الصوت	VOLUME
+ar	فعّل عدم الإزعاج	DND
+ar	أريد المنبه	ALARM
+ar	افتح المؤقت	TIMER
+ar	لا تشغل الواي فاي	UNKNOWN
+ar	ما أخبار الطقس	UNKNOWN
+ary	حل ليا الويفي عافاك	WIFI
+ary	شعل البلوتوت	BLUETOOTH
+ary	بغيت نوفر الباطري	BATTERY
+ary	فين نلقى ليبارامتر	SETTINGS
+ary	نقص ليا الضو شوية	BRIGHTNESS
+ary	طلع الصوت عافاك	VOLUME
+ary	بغيت التليفون بلا صداع	DND
+ary	دير ليا الريفي	ALARM
+ary	حل المينوتور	TIMER
+ary	ماتحلش الويفي	UNKNOWN
+ary	واش غادي تشتي غدا	UNKNOWN
+ary-Latn	3afak 7ell wifi	WIFI
+ary-Latn	ch3el blotot 3afak	BLUETOOTH
+ary-Latn	bghit n9ess lbatri	BATTERY
+ary-Latn	7ell settings dyali	SETTINGS
+ary-Latn	n9ess daw chwia	BRIGHTNESS
+ary-Latn	tla3 sot 3afak	VOLUME
+ary-Latn	bghit bla sda3	DND
+ary-Latn	7ell alarm	ALARM
+ary-Latn	dir timer 3afak	TIMER
+ary-Latn	mat 7ell wifi	UNKNOWN
+ary-Latn	3afak coupe le wifi	WIFI
+fr	Peux-tu ouvrir le Wi-Fi ?	WIFI
+fr	Ouvre les options Bluetooth	BLUETOOTH
+fr	Active l’économie de batterie	BATTERY
+fr	Montre les paramètres	SETTINGS
+fr	Baisse la luminosité	BRIGHTNESS
+fr	Monte le volume	VOLUME
+fr	Active le mode ne pas déranger	DND
+fr	Ouvre le réveil	ALARM
+fr	Je veux un minuteur	TIMER
+fr	N’ouvre pas le Wi-Fi	UNKNOWN
+fr	Quel temps demain ?	UNKNOWN
+es	Abre el Wi-Fi por favor	WIFI
+es	Quiero ver Bluetooth	BLUETOOTH
+es	Activa el ahorro de batería	BATTERY
+es	Abre los ajustes	SETTINGS
+es	Baja el brillo	BRIGHTNESS
+es	Sube el volumen	VOLUME
+es	Activa no molestar	DND
+es	Abre la alarma	ALARM
+es	Necesito un temporizador	TIMER
+es	No abras Wi-Fi	UNKNOWN
+es	Cuéntame un chiste	UNKNOWN
+pt	Abre o Wi-Fi por favor	WIFI
+pt	Mostra o Bluetooth	BLUETOOTH
+pt	Poupa a bateria	BATTERY
+pt	Abre as definições	SETTINGS
+pt	Reduz o brilho	BRIGHTNESS
+pt	Aumenta o volume	VOLUME
+pt	Ativa não perturbar	DND
+pt	Abre o alarme	ALARM
+pt	Preciso de um temporizador	TIMER
+pt	Não abras o Wi-Fi	UNKNOWN
+pt	Como está o tempo?	UNKNOWN
+ru	Открой вайфай пожалуйста	WIFI
+ru	Покажи блютуз	BLUETOOTH
+ru	Включи энергосбережение	BATTERY
+ru	Открой настройки	SETTINGS
+ru	Уменьши яркость	BRIGHTNESS
+ru	Увеличь громкость	VOLUME
+ru	Включи режим не беспокоить	DND
+ru	Открой будильник	ALARM
+ru	Мне нужен таймер	TIMER
+ru	Не открывай вайфай	UNKNOWN
+ru	Расскажи шутку	UNKNOWN
+tr	Kablosuz ağ ayarını aç	WIFI
+tr	Bluetooth seçeneklerini göster	BLUETOOTH
+tr	Pil tasarrufunu aç	BATTERY
+tr	Ayarları açar mısın	SETTINGS
+tr	Parlaklığı azalt	BRIGHTNESS
+tr	Ses seviyesini yükselt	VOLUME
+tr	Rahatsız etme modunu aç	DND
+tr	Alarmı aç	ALARM
+tr	Zamanlayıcı istiyorum	TIMER
+tr	Wifi açma	UNKNOWN
+tr	Bana bir şaka anlat	UNKNOWN
+hi	वाईफाई खोलो	WIFI
+hi	ब्लूटूथ दिखाओ	BLUETOOTH
+hi	बैटरी बचत चालू करो	BATTERY
+hi	सेटिंग खोलो	SETTINGS
+hi	चमक कम करो	BRIGHTNESS
+hi	आवाज़ बढ़ाओ	VOLUME
+hi	परेशान न करें मोड खोलो	DND
+hi	अलार्म खोलो	ALARM
+hi	टाइमर चाहिए	TIMER
+hi	वाईफाई मत खोलो	UNKNOWN
+hi	एक चुटकुला सुनाओ	UNKNOWN
+zh	请打开无线网络	WIFI
+zh	打开蓝牙设置	BLUETOOTH
+zh	打开省电模式	BATTERY
+zh	打开设置	SETTINGS
+zh	降低亮度	BRIGHTNESS
+zh	调高音量	VOLUME
+zh	开启勿扰模式	DND
+zh	打开闹钟	ALARM
+zh	我需要计时器	TIMER
+zh	不要打开无线网络	UNKNOWN
+zh	讲个笑话	UNKNOWN
+en	Open Wi-Fi and Bluetooth	UNKNOWN
+ary-Latn	3afak zid volume et luminosité	UNKNOWN
+fr	Active Bluetooth puis ouvre les paramètres	UNKNOWN
+en	The word battery appears in this article	UNKNOWN

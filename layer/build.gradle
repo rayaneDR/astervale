@@ -1,0 +1,16 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'org.astervale.panel'
+    compileSdk 36
+    defaultConfig { applicationId 'org.astervale.layer'; minSdk 31; targetSdk 36; versionCode 1; versionName '0.1.0-preview' }
+    sourceSets {
+        main {
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+            java.srcDirs = ['../android/panel/src', 'src/main/java']
+            res.srcDirs = ['../android/panel/res', 'src/main/res']
+            assets.srcDirs = ['src/main/assets']
+        }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    buildTypes { debug { applicationIdSuffix '.preview' }; release { minifyEnabled false } }
+}
