@@ -20,7 +20,7 @@ The nine-screen browser prototype supports light/dark, Arabic/RTL, text scaling,
 | Component | Artifact label | Evidence / limitation |
 | --- | --- | --- |
 | Original design + web prototype | built | Browser flow checks, screenshots; not native SystemUI |
-| Standalone home + drawer | untested | Native source; check validation report for APK build result; not a complete Launcher3 fork |
+| Standalone home + drawer | built / untested | APK compiled and linted; hardware untested; not a complete Launcher3 fork |
 | Rill local command assistant | built / untested | Actual Java matcher tested on host; Android actions/voice untested |
 | Floating Seed / Pebble / Kite companion | untested | Drag/edge snap/tap/menu, optional overlay; no screen reading |
 | Optional root-manager module | built / untested | Packaged; explicit reversible debloat only, no boot-time tuning |
@@ -34,7 +34,7 @@ Rill defaults to English and has a conservative local intent router with explana
 
 The [upstream community feed](https://github.com/Exynos9611Development/OTA/blob/lineage/a51/ota.json) lists a February 14, 2026 LineageOS 23.2 A51 build. Its download responded HTTP 200 with the expected byte count on 2026-11-10. We have not downloaded, flashed or tested it. It is about nine months old, so it is not advertised as a recent security baseline. See [Plan B and its limits](docs/PLAN_B.md).
 
-Read [STATUS](STATUS.md), [design system](DESIGN.md), [base research](docs/BASE_RESEARCH.md), [feature ranking](docs/FEATURE_RESEARCH.md), [local AI research](docs/AI_RESEARCH.md), [Plan A build notes](docs/BUILD.md), [recovery](docs/RECOVERY.md), [validation](docs/VALIDATION.md) and [contributing](CONTRIBUTING.md).
+Read [known issues](docs/KNOWN_ISSUES.md), [STATUS](STATUS.md), [design system](DESIGN.md), [base research](docs/BASE_RESEARCH.md), [feature ranking](docs/FEATURE_RESEARCH.md), [local AI research](docs/AI_RESEARCH.md), [Plan A build notes](docs/BUILD.md), [recovery](docs/RECOVERY.md), [validation](docs/VALIDATION.md) and [contributing](CONTRIBUTING.md).
 
 ## Build the APK for free
 

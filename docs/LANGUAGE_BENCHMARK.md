@@ -28,4 +28,4 @@ Executed on Windows JVM, not A51. Synthetic human-authored fixtures, no recorded
 
 Negation, quoted text, inflected words and code-switching require broader tests. Tool execution always needs confirmation, including matched routes.
 
-Host batch elapsed (not device latency): 452 ms
+Host batch elapsed (not device latency): 582 ms
