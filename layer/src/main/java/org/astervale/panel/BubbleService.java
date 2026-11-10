@@ -44,7 +44,7 @@ public final class BubbleService extends Service {
         int pixels=Math.round(size*getResources().getDisplayMetrics().density);
         if(attached){manager.removeView(view);attached=false;}
         layout=new WindowManager.LayoutParams(pixels,pixels,WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,PixelFormat.TRANSLUCENT);
-        layout.gravity=Gravity.TOP|Gravity.LEFT;layout.x=8;layout.y=240;
+        layout.gravity=Gravity.TOP|Gravity.START;layout.x=8;layout.y=240;
         layout.alpha=Math.max(.35f,Math.min(1f,intent.getIntExtra("opacity",90)/100f));
         view=new Companion();view.setContentDescription("Rill companion. Tap to open, drag to move, long press for state menu, double tap to hide.");
         try{manager.addView(view,layout);attached=true;handler.removeCallbacks(blink);handler.postDelayed(blink,5000);}catch(RuntimeException e){stopSelf();}
@@ -72,7 +72,7 @@ public final class BubbleService extends Service {
         @Override public boolean performClick(){super.performClick();return true;}
         @Override public boolean onTouchEvent(MotionEvent e){
             if(e.getActionMasked()==MotionEvent.ACTION_DOWN){downX=e.getRawX();downY=e.getRawY();startX=layout.x;startY=layout.y;dragged=false;}
-            if(e.getActionMasked()==MotionEvent.ACTION_MOVE){float dx=e.getRawX()-downX,dy=e.getRawY()-downY;if(Math.hypot(dx,dy)>12)dragged=true;if(dragged){Rect bounds=manager.getCurrentWindowMetrics().getBounds();layout.x=Math.max(0,Math.min(bounds.width()-getWidth(),startX+(int)dx));layout.y=Math.max(0,Math.min(bounds.height()-getHeight(),startY+(int)dy));manager.updateViewLayout(this,layout);}}
+            if(e.getActionMasked()==MotionEvent.ACTION_MOVE){float dx=e.getRawX()-downX,dy=e.getRawY()-downY;if(getResources().getConfiguration().getLayoutDirection()==View.LAYOUT_DIRECTION_RTL)dx=-dx;if(Math.hypot(dx,dy)>12)dragged=true;if(dragged){Rect bounds=manager.getCurrentWindowMetrics().getBounds();layout.x=Math.max(0,Math.min(bounds.width()-getWidth(),startX+(int)dx));layout.y=Math.max(0,Math.min(bounds.height()-getHeight(),startY+(int)dy));manager.updateViewLayout(this,layout);}}
             if(e.getActionMasked()==MotionEvent.ACTION_UP&&dragged){int width=manager.getCurrentWindowMetrics().getBounds().width();layout.x=layout.x<width/2?0:width-getWidth();manager.updateViewLayout(this,layout);}
             gestures.onTouchEvent(e);return true;
         }

@@ -34,7 +34,7 @@ public final class LayerHomeActivity extends Activity {
         root=Ui.page(this);Ui.text(this,root,"All apps",32);
         Ui.button(this,root,"Home",this::home);
         EditText search=new EditText(this);search.setHint("Search apps");search.setSingleLine(true);root.addView(search);
-        apps=new LinearLayout(this);apps.setOrientation(1);root.addView(apps);
+        apps=new LinearLayout(this);apps.setOrientation(LinearLayout.VERTICAL);root.addView(apps);
         Intent query=new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_LAUNCHER);
         List<ResolveInfo> installed=new ArrayList<>(getPackageManager().queryIntentActivities(query,0));
         installed.sort(new ResolveInfo.DisplayNameComparator(getPackageManager()));

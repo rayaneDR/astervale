@@ -118,7 +118,7 @@ public final class RillActivity extends Activity implements RecognitionListener 
     }
     private void refreshUsage(){
         android.os.Debug.MemoryInfo info=new android.os.Debug.MemoryInfo();android.os.Debug.getMemoryInfo(info);
-        usage.setText("Current app-process PSS: "+info.getTotalPss()+" KiB. Includes UI and companion (same process). Sample at "+java.text.DateFormat.getTimeInstance().format(new Date())+".\nCompanion-specific battery cost: unmeasured. CPU/FPS/temperature: unmeasured. No zero-drain claim.");
+        usage.setText(getString(R.string.memory_usage,info.getTotalPss(),java.text.DateFormat.getTimeInstance().format(new Date())));
     }
     @Override protected void onStop(){super.onStop();if(recognizer!=null){recognizer.cancel();recognizer.destroy();recognizer=null;}if(tts!=null)tts.stop();}
     @Override protected void onDestroy(){if(recognizer!=null)recognizer.destroy();if(tts!=null){tts.stop();tts.shutdown();}super.onDestroy();}

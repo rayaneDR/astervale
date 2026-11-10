@@ -1,0 +1,397 @@
+language	text	route	provenance
+en	Please show Wi-Fi controls	WIFI	author-written template expansion; no audio; overlaps development fixtures
+en	Rill, Please show Wi-Fi controls	WIFI	author-written template expansion; no audio; overlaps development fixtures
+en	Please show Wi-Fi controls, please	WIFI	author-written template expansion; no audio; overlaps development fixtures
+en	Can you help? Please show Wi-Fi controls	WIFI	author-written template expansion; no audio; overlaps development fixtures
+en	Where can I adjust Bluetooth?	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+en	Rill, Where can I adjust Bluetooth?	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+en	Where can I adjust Bluetooth?, please	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+en	Can you help? Where can I adjust Bluetooth?	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+en	Use battery saver please	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+en	Rill, Use battery saver please	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+en	Use battery saver please, please	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+en	Can you help? Use battery saver please	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+en	Take me to settings	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+en	Rill, Take me to settings	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+en	Take me to settings, please	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+en	Can you help? Take me to settings	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+en	Make the screen brightness lower	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+en	Rill, Make the screen brightness lower	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+en	Make the screen brightness lower, please	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+en	Can you help? Make the screen brightness lower	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+en	Turn the volume down	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+en	Rill, Turn the volume down	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+en	Turn the volume down, please	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+en	Can you help? Turn the volume down	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+en	Start focus mode	DND	author-written template expansion; no audio; overlaps development fixtures
+en	Rill, Start focus mode	DND	author-written template expansion; no audio; overlaps development fixtures
+en	Start focus mode, please	DND	author-written template expansion; no audio; overlaps development fixtures
+en	Can you help? Start focus mode	DND	author-written template expansion; no audio; overlaps development fixtures
+en	Show my alarm	ALARM	author-written template expansion; no audio; overlaps development fixtures
+en	Rill, Show my alarm	ALARM	author-written template expansion; no audio; overlaps development fixtures
+en	Show my alarm, please	ALARM	author-written template expansion; no audio; overlaps development fixtures
+en	Can you help? Show my alarm	ALARM	author-written template expansion; no audio; overlaps development fixtures
+en	I need a timer	TIMER	author-written template expansion; no audio; overlaps development fixtures
+en	Rill, I need a timer	TIMER	author-written template expansion; no audio; overlaps development fixtures
+en	I need a timer, please	TIMER	author-written template expansion; no audio; overlaps development fixtures
+en	Can you help? I need a timer	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ar	افتح الواي فاي من فضلك	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ar	يا ريل، افتح الواي فاي من فضلك	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ar	افتح الواي فاي من فضلك لو سمحت	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ar	أحتاج مساعدة: افتح الواي فاي من فضلك	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ar	أريد إعدادات البلوتوث	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ar	يا ريل، أريد إعدادات البلوتوث	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ar	أريد إعدادات البلوتوث لو سمحت	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ar	أحتاج مساعدة: أريد إعدادات البلوتوث	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ar	فعّل توفير الطاقة	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ar	يا ريل، فعّل توفير الطاقة	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ar	فعّل توفير الطاقة لو سمحت	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ar	أحتاج مساعدة: فعّل توفير الطاقة	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ar	افتح الإعدادات	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ar	يا ريل، افتح الإعدادات	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ar	افتح الإعدادات لو سمحت	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ar	أحتاج مساعدة: افتح الإعدادات	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ar	خفّض السطوع	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ar	يا ريل، خفّض السطوع	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ar	خفّض السطوع لو سمحت	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ar	أحتاج مساعدة: خفّض السطوع	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ar	ارفع الصوت	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ar	يا ريل، ارفع الصوت	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ar	ارفع الصوت لو سمحت	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ar	أحتاج مساعدة: ارفع الصوت	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ar	فعّل عدم الإزعاج	DND	author-written template expansion; no audio; overlaps development fixtures
+ar	يا ريل، فعّل عدم الإزعاج	DND	author-written template expansion; no audio; overlaps development fixtures
+ar	فعّل عدم الإزعاج لو سمحت	DND	author-written template expansion; no audio; overlaps development fixtures
+ar	أحتاج مساعدة: فعّل عدم الإزعاج	DND	author-written template expansion; no audio; overlaps development fixtures
+ar	أريد المنبه	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ar	يا ريل، أريد المنبه	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ar	أريد المنبه لو سمحت	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ar	أحتاج مساعدة: أريد المنبه	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ar	افتح المؤقت	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ar	يا ريل، افتح المؤقت	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ar	افتح المؤقت لو سمحت	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ar	أحتاج مساعدة: افتح المؤقت	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ary	حل ليا الويفي عافاك	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ary	آ ريل، حل ليا الويفي عافاك	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ary	عافاك حل ليا الويفي عافاك	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ary	واخا تعاونّي؟ حل ليا الويفي عافاك	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ary	شعل البلوتوت	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ary	آ ريل، شعل البلوتوت	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ary	عافاك شعل البلوتوت	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ary	واخا تعاونّي؟ شعل البلوتوت	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ary	بغيت نوفر الباطري	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ary	آ ريل، بغيت نوفر الباطري	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ary	عافاك بغيت نوفر الباطري	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ary	واخا تعاونّي؟ بغيت نوفر الباطري	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ary	فين نلقى ليبارامتر	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ary	آ ريل، فين نلقى ليبارامتر	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ary	عافاك فين نلقى ليبارامتر	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ary	واخا تعاونّي؟ فين نلقى ليبارامتر	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ary	نقص ليا الضو شوية	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ary	آ ريل، نقص ليا الضو شوية	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ary	عافاك نقص ليا الضو شوية	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ary	واخا تعاونّي؟ نقص ليا الضو شوية	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ary	طلع الصوت عافاك	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ary	آ ريل، طلع الصوت عافاك	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ary	عافاك طلع الصوت عافاك	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ary	واخا تعاونّي؟ طلع الصوت عافاك	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ary	بغيت التليفون بلا صداع	DND	author-written template expansion; no audio; overlaps development fixtures
+ary	آ ريل، بغيت التليفون بلا صداع	DND	author-written template expansion; no audio; overlaps development fixtures
+ary	عافاك بغيت التليفون بلا صداع	DND	author-written template expansion; no audio; overlaps development fixtures
+ary	واخا تعاونّي؟ بغيت التليفون بلا صداع	DND	author-written template expansion; no audio; overlaps development fixtures
+ary	دير ليا الريفي	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ary	آ ريل، دير ليا الريفي	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ary	عافاك دير ليا الريفي	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ary	واخا تعاونّي؟ دير ليا الريفي	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ary	حل المينوتور	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ary	آ ريل، حل المينوتور	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ary	عافاك حل المينوتور	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ary	واخا تعاونّي؟ حل المينوتور	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	3afak 7ell wifi	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	Rill, 3afak 7ell wifi	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	3afak 3afak 7ell wifi	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	wach t9der t3awenni? 3afak 7ell wifi	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	ch3el blotot 3afak	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	Rill, ch3el blotot 3afak	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	3afak ch3el blotot 3afak	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	wach t9der t3awenni? ch3el blotot 3afak	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	bghit n9ess lbatri	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	Rill, bghit n9ess lbatri	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	3afak bghit n9ess lbatri	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	wach t9der t3awenni? bghit n9ess lbatri	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	7ell settings dyali	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	Rill, 7ell settings dyali	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	3afak 7ell settings dyali	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	wach t9der t3awenni? 7ell settings dyali	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	n9ess daw chwia	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	Rill, n9ess daw chwia	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	3afak n9ess daw chwia	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	wach t9der t3awenni? n9ess daw chwia	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	tla3 sot 3afak	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	Rill, tla3 sot 3afak	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	3afak tla3 sot 3afak	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	wach t9der t3awenni? tla3 sot 3afak	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	bghit bla sda3	DND	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	Rill, bghit bla sda3	DND	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	3afak bghit bla sda3	DND	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	wach t9der t3awenni? bghit bla sda3	DND	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	7ell alarm	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	Rill, 7ell alarm	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	3afak 7ell alarm	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	wach t9der t3awenni? 7ell alarm	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	dir timer 3afak	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	Rill, dir timer 3afak	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	3afak dir timer 3afak	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ary-Latn	wach t9der t3awenni? dir timer 3afak	TIMER	author-written template expansion; no audio; overlaps development fixtures
+fr	Peux-tu ouvrir le Wi-Fi ?	WIFI	author-written template expansion; no audio; overlaps development fixtures
+fr	Rill, Peux-tu ouvrir le Wi-Fi ?	WIFI	author-written template expansion; no audio; overlaps development fixtures
+fr	Peux-tu ouvrir le Wi-Fi ?, s’il te plaît	WIFI	author-written template expansion; no audio; overlaps development fixtures
+fr	Tu peux m’aider ? Peux-tu ouvrir le Wi-Fi ?	WIFI	author-written template expansion; no audio; overlaps development fixtures
+fr	Ouvre les options Bluetooth	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+fr	Rill, Ouvre les options Bluetooth	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+fr	Ouvre les options Bluetooth, s’il te plaît	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+fr	Tu peux m’aider ? Ouvre les options Bluetooth	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+fr	Active l’économie de batterie	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+fr	Rill, Active l’économie de batterie	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+fr	Active l’économie de batterie, s’il te plaît	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+fr	Tu peux m’aider ? Active l’économie de batterie	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+fr	Montre les paramètres	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+fr	Rill, Montre les paramètres	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+fr	Montre les paramètres, s’il te plaît	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+fr	Tu peux m’aider ? Montre les paramètres	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+fr	Baisse la luminosité	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+fr	Rill, Baisse la luminosité	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+fr	Baisse la luminosité, s’il te plaît	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+fr	Tu peux m’aider ? Baisse la luminosité	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+fr	Monte le volume	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+fr	Rill, Monte le volume	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+fr	Monte le volume, s’il te plaît	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+fr	Tu peux m’aider ? Monte le volume	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+fr	Active le mode ne pas déranger	DND	author-written template expansion; no audio; overlaps development fixtures
+fr	Rill, Active le mode ne pas déranger	DND	author-written template expansion; no audio; overlaps development fixtures
+fr	Active le mode ne pas déranger, s’il te plaît	DND	author-written template expansion; no audio; overlaps development fixtures
+fr	Tu peux m’aider ? Active le mode ne pas déranger	DND	author-written template expansion; no audio; overlaps development fixtures
+fr	Ouvre le réveil	ALARM	author-written template expansion; no audio; overlaps development fixtures
+fr	Rill, Ouvre le réveil	ALARM	author-written template expansion; no audio; overlaps development fixtures
+fr	Ouvre le réveil, s’il te plaît	ALARM	author-written template expansion; no audio; overlaps development fixtures
+fr	Tu peux m’aider ? Ouvre le réveil	ALARM	author-written template expansion; no audio; overlaps development fixtures
+fr	Je veux un minuteur	TIMER	author-written template expansion; no audio; overlaps development fixtures
+fr	Rill, Je veux un minuteur	TIMER	author-written template expansion; no audio; overlaps development fixtures
+fr	Je veux un minuteur, s’il te plaît	TIMER	author-written template expansion; no audio; overlaps development fixtures
+fr	Tu peux m’aider ? Je veux un minuteur	TIMER	author-written template expansion; no audio; overlaps development fixtures
+es	Abre el Wi-Fi por favor	WIFI	author-written template expansion; no audio; overlaps development fixtures
+es	Rill, Abre el Wi-Fi por favor	WIFI	author-written template expansion; no audio; overlaps development fixtures
+es	Abre el Wi-Fi por favor, por favor	WIFI	author-written template expansion; no audio; overlaps development fixtures
+es	¿Me ayudas? Abre el Wi-Fi por favor	WIFI	author-written template expansion; no audio; overlaps development fixtures
+es	Quiero ver Bluetooth	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+es	Rill, Quiero ver Bluetooth	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+es	Quiero ver Bluetooth, por favor	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+es	¿Me ayudas? Quiero ver Bluetooth	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+es	Activa el ahorro de batería	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+es	Rill, Activa el ahorro de batería	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+es	Activa el ahorro de batería, por favor	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+es	¿Me ayudas? Activa el ahorro de batería	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+es	Abre los ajustes	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+es	Rill, Abre los ajustes	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+es	Abre los ajustes, por favor	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+es	¿Me ayudas? Abre los ajustes	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+es	Baja el brillo	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+es	Rill, Baja el brillo	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+es	Baja el brillo, por favor	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+es	¿Me ayudas? Baja el brillo	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+es	Sube el volumen	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+es	Rill, Sube el volumen	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+es	Sube el volumen, por favor	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+es	¿Me ayudas? Sube el volumen	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+es	Activa no molestar	DND	author-written template expansion; no audio; overlaps development fixtures
+es	Rill, Activa no molestar	DND	author-written template expansion; no audio; overlaps development fixtures
+es	Activa no molestar, por favor	DND	author-written template expansion; no audio; overlaps development fixtures
+es	¿Me ayudas? Activa no molestar	DND	author-written template expansion; no audio; overlaps development fixtures
+es	Abre la alarma	ALARM	author-written template expansion; no audio; overlaps development fixtures
+es	Rill, Abre la alarma	ALARM	author-written template expansion; no audio; overlaps development fixtures
+es	Abre la alarma, por favor	ALARM	author-written template expansion; no audio; overlaps development fixtures
+es	¿Me ayudas? Abre la alarma	ALARM	author-written template expansion; no audio; overlaps development fixtures
+es	Necesito un temporizador	TIMER	author-written template expansion; no audio; overlaps development fixtures
+es	Rill, Necesito un temporizador	TIMER	author-written template expansion; no audio; overlaps development fixtures
+es	Necesito un temporizador, por favor	TIMER	author-written template expansion; no audio; overlaps development fixtures
+es	¿Me ayudas? Necesito un temporizador	TIMER	author-written template expansion; no audio; overlaps development fixtures
+pt	Abre o Wi-Fi por favor	WIFI	author-written template expansion; no audio; overlaps development fixtures
+pt	Rill, Abre o Wi-Fi por favor	WIFI	author-written template expansion; no audio; overlaps development fixtures
+pt	Abre o Wi-Fi por favor, por favor	WIFI	author-written template expansion; no audio; overlaps development fixtures
+pt	Podes ajudar? Abre o Wi-Fi por favor	WIFI	author-written template expansion; no audio; overlaps development fixtures
+pt	Mostra o Bluetooth	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+pt	Rill, Mostra o Bluetooth	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+pt	Mostra o Bluetooth, por favor	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+pt	Podes ajudar? Mostra o Bluetooth	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+pt	Poupa a bateria	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+pt	Rill, Poupa a bateria	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+pt	Poupa a bateria, por favor	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+pt	Podes ajudar? Poupa a bateria	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+pt	Abre as definições	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+pt	Rill, Abre as definições	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+pt	Abre as definições, por favor	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+pt	Podes ajudar? Abre as definições	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+pt	Reduz o brilho	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+pt	Rill, Reduz o brilho	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+pt	Reduz o brilho, por favor	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+pt	Podes ajudar? Reduz o brilho	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+pt	Aumenta o volume	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+pt	Rill, Aumenta o volume	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+pt	Aumenta o volume, por favor	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+pt	Podes ajudar? Aumenta o volume	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+pt	Ativa não perturbar	DND	author-written template expansion; no audio; overlaps development fixtures
+pt	Rill, Ativa não perturbar	DND	author-written template expansion; no audio; overlaps development fixtures
+pt	Ativa não perturbar, por favor	DND	author-written template expansion; no audio; overlaps development fixtures
+pt	Podes ajudar? Ativa não perturbar	DND	author-written template expansion; no audio; overlaps development fixtures
+pt	Abre o alarme	ALARM	author-written template expansion; no audio; overlaps development fixtures
+pt	Rill, Abre o alarme	ALARM	author-written template expansion; no audio; overlaps development fixtures
+pt	Abre o alarme, por favor	ALARM	author-written template expansion; no audio; overlaps development fixtures
+pt	Podes ajudar? Abre o alarme	ALARM	author-written template expansion; no audio; overlaps development fixtures
+pt	Preciso de um temporizador	TIMER	author-written template expansion; no audio; overlaps development fixtures
+pt	Rill, Preciso de um temporizador	TIMER	author-written template expansion; no audio; overlaps development fixtures
+pt	Preciso de um temporizador, por favor	TIMER	author-written template expansion; no audio; overlaps development fixtures
+pt	Podes ajudar? Preciso de um temporizador	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ru	Открой вайфай пожалуйста	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ru	Рилл, Открой вайфай пожалуйста	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ru	Открой вайфай пожалуйста, пожалуйста	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ru	Помоги, пожалуйста: Открой вайфай пожалуйста	WIFI	author-written template expansion; no audio; overlaps development fixtures
+ru	Покажи блютуз	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ru	Рилл, Покажи блютуз	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ru	Покажи блютуз, пожалуйста	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ru	Помоги, пожалуйста: Покажи блютуз	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+ru	Включи энергосбережение	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ru	Рилл, Включи энергосбережение	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ru	Включи энергосбережение, пожалуйста	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ru	Помоги, пожалуйста: Включи энергосбережение	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+ru	Открой настройки	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ru	Рилл, Открой настройки	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ru	Открой настройки, пожалуйста	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ru	Помоги, пожалуйста: Открой настройки	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+ru	Уменьши яркость	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ru	Рилл, Уменьши яркость	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ru	Уменьши яркость, пожалуйста	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ru	Помоги, пожалуйста: Уменьши яркость	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+ru	Увеличь громкость	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ru	Рилл, Увеличь громкость	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ru	Увеличь громкость, пожалуйста	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ru	Помоги, пожалуйста: Увеличь громкость	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+ru	Включи режим не беспокоить	DND	author-written template expansion; no audio; overlaps development fixtures
+ru	Рилл, Включи режим не беспокоить	DND	author-written template expansion; no audio; overlaps development fixtures
+ru	Включи режим не беспокоить, пожалуйста	DND	author-written template expansion; no audio; overlaps development fixtures
+ru	Помоги, пожалуйста: Включи режим не беспокоить	DND	author-written template expansion; no audio; overlaps development fixtures
+ru	Открой будильник	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ru	Рилл, Открой будильник	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ru	Открой будильник, пожалуйста	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ru	Помоги, пожалуйста: Открой будильник	ALARM	author-written template expansion; no audio; overlaps development fixtures
+ru	Мне нужен таймер	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ru	Рилл, Мне нужен таймер	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ru	Мне нужен таймер, пожалуйста	TIMER	author-written template expansion; no audio; overlaps development fixtures
+ru	Помоги, пожалуйста: Мне нужен таймер	TIMER	author-written template expansion; no audio; overlaps development fixtures
+tr	Kablosuz ağ ayarını aç	WIFI	author-written template expansion; no audio; overlaps development fixtures
+tr	Rill, Kablosuz ağ ayarını aç	WIFI	author-written template expansion; no audio; overlaps development fixtures
+tr	Lütfen Kablosuz ağ ayarını aç	WIFI	author-written template expansion; no audio; overlaps development fixtures
+tr	Yardım eder misin? Kablosuz ağ ayarını aç	WIFI	author-written template expansion; no audio; overlaps development fixtures
+tr	Bluetooth seçeneklerini göster	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+tr	Rill, Bluetooth seçeneklerini göster	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+tr	Lütfen Bluetooth seçeneklerini göster	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+tr	Yardım eder misin? Bluetooth seçeneklerini göster	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+tr	Pil tasarrufunu aç	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+tr	Rill, Pil tasarrufunu aç	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+tr	Lütfen Pil tasarrufunu aç	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+tr	Yardım eder misin? Pil tasarrufunu aç	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+tr	Ayarları açar mısın	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+tr	Rill, Ayarları açar mısın	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+tr	Lütfen Ayarları açar mısın	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+tr	Yardım eder misin? Ayarları açar mısın	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+tr	Parlaklığı azalt	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+tr	Rill, Parlaklığı azalt	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+tr	Lütfen Parlaklığı azalt	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+tr	Yardım eder misin? Parlaklığı azalt	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+tr	Ses seviyesini yükselt	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+tr	Rill, Ses seviyesini yükselt	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+tr	Lütfen Ses seviyesini yükselt	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+tr	Yardım eder misin? Ses seviyesini yükselt	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+tr	Rahatsız etme modunu aç	DND	author-written template expansion; no audio; overlaps development fixtures
+tr	Rill, Rahatsız etme modunu aç	DND	author-written template expansion; no audio; overlaps development fixtures
+tr	Lütfen Rahatsız etme modunu aç	DND	author-written template expansion; no audio; overlaps development fixtures
+tr	Yardım eder misin? Rahatsız etme modunu aç	DND	author-written template expansion; no audio; overlaps development fixtures
+tr	Alarmı aç	ALARM	author-written template expansion; no audio; overlaps development fixtures
+tr	Rill, Alarmı aç	ALARM	author-written template expansion; no audio; overlaps development fixtures
+tr	Lütfen Alarmı aç	ALARM	author-written template expansion; no audio; overlaps development fixtures
+tr	Yardım eder misin? Alarmı aç	ALARM	author-written template expansion; no audio; overlaps development fixtures
+tr	Zamanlayıcı istiyorum	TIMER	author-written template expansion; no audio; overlaps development fixtures
+tr	Rill, Zamanlayıcı istiyorum	TIMER	author-written template expansion; no audio; overlaps development fixtures
+tr	Lütfen Zamanlayıcı istiyorum	TIMER	author-written template expansion; no audio; overlaps development fixtures
+tr	Yardım eder misin? Zamanlayıcı istiyorum	TIMER	author-written template expansion; no audio; overlaps development fixtures
+hi	वाईफाई खोलो	WIFI	author-written template expansion; no audio; overlaps development fixtures
+hi	रिल, वाईफाई खोलो	WIFI	author-written template expansion; no audio; overlaps development fixtures
+hi	कृपया वाईफाई खोलो	WIFI	author-written template expansion; no audio; overlaps development fixtures
+hi	मदद करो: वाईफाई खोलो	WIFI	author-written template expansion; no audio; overlaps development fixtures
+hi	ब्लूटूथ दिखाओ	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+hi	रिल, ब्लूटूथ दिखाओ	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+hi	कृपया ब्लूटूथ दिखाओ	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+hi	मदद करो: ब्लूटूथ दिखाओ	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+hi	बैटरी बचत चालू करो	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+hi	रिल, बैटरी बचत चालू करो	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+hi	कृपया बैटरी बचत चालू करो	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+hi	मदद करो: बैटरी बचत चालू करो	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+hi	सेटिंग खोलो	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+hi	रिल, सेटिंग खोलो	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+hi	कृपया सेटिंग खोलो	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+hi	मदद करो: सेटिंग खोलो	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+hi	चमक कम करो	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+hi	रिल, चमक कम करो	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+hi	कृपया चमक कम करो	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+hi	मदद करो: चमक कम करो	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+hi	आवाज़ बढ़ाओ	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+hi	रिल, आवाज़ बढ़ाओ	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+hi	कृपया आवाज़ बढ़ाओ	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+hi	मदद करो: आवाज़ बढ़ाओ	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+hi	परेशान न करें मोड खोलो	DND	author-written template expansion; no audio; overlaps development fixtures
+hi	रिल, परेशान न करें मोड खोलो	DND	author-written template expansion; no audio; overlaps development fixtures
+hi	कृपया परेशान न करें मोड खोलो	DND	author-written template expansion; no audio; overlaps development fixtures
+hi	मदद करो: परेशान न करें मोड खोलो	DND	author-written template expansion; no audio; overlaps development fixtures
+hi	अलार्म खोलो	ALARM	author-written template expansion; no audio; overlaps development fixtures
+hi	रिल, अलार्म खोलो	ALARM	author-written template expansion; no audio; overlaps development fixtures
+hi	कृपया अलार्म खोलो	ALARM	author-written template expansion; no audio; overlaps development fixtures
+hi	मदद करो: अलार्म खोलो	ALARM	author-written template expansion; no audio; overlaps development fixtures
+hi	टाइमर चाहिए	TIMER	author-written template expansion; no audio; overlaps development fixtures
+hi	रिल, टाइमर चाहिए	TIMER	author-written template expansion; no audio; overlaps development fixtures
+hi	कृपया टाइमर चाहिए	TIMER	author-written template expansion; no audio; overlaps development fixtures
+hi	मदद करो: टाइमर चाहिए	TIMER	author-written template expansion; no audio; overlaps development fixtures
+zh	请打开无线网络	WIFI	author-written template expansion; no audio; overlaps development fixtures
+zh	Rill，请打开无线网络	WIFI	author-written template expansion; no audio; overlaps development fixtures
+zh	麻烦你，请打开无线网络	WIFI	author-written template expansion; no audio; overlaps development fixtures
+zh	帮我一下，请打开无线网络	WIFI	author-written template expansion; no audio; overlaps development fixtures
+zh	打开蓝牙设置	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+zh	Rill，打开蓝牙设置	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+zh	麻烦你，打开蓝牙设置	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+zh	帮我一下，打开蓝牙设置	BLUETOOTH	author-written template expansion; no audio; overlaps development fixtures
+zh	打开省电模式	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+zh	Rill，打开省电模式	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+zh	麻烦你，打开省电模式	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+zh	帮我一下，打开省电模式	BATTERY	author-written template expansion; no audio; overlaps development fixtures
+zh	打开设置	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+zh	Rill，打开设置	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+zh	麻烦你，打开设置	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+zh	帮我一下，打开设置	SETTINGS	author-written template expansion; no audio; overlaps development fixtures
+zh	降低亮度	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+zh	Rill，降低亮度	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+zh	麻烦你，降低亮度	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+zh	帮我一下，降低亮度	BRIGHTNESS	author-written template expansion; no audio; overlaps development fixtures
+zh	调高音量	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+zh	Rill，调高音量	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+zh	麻烦你，调高音量	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+zh	帮我一下，调高音量	VOLUME	author-written template expansion; no audio; overlaps development fixtures
+zh	开启勿扰模式	DND	author-written template expansion; no audio; overlaps development fixtures
+zh	Rill，开启勿扰模式	DND	author-written template expansion; no audio; overlaps development fixtures
+zh	麻烦你，开启勿扰模式	DND	author-written template expansion; no audio; overlaps development fixtures
+zh	帮我一下，开启勿扰模式	DND	author-written template expansion; no audio; overlaps development fixtures
+zh	打开闹钟	ALARM	author-written template expansion; no audio; overlaps development fixtures
+zh	Rill，打开闹钟	ALARM	author-written template expansion; no audio; overlaps development fixtures
+zh	麻烦你，打开闹钟	ALARM	author-written template expansion; no audio; overlaps development fixtures
+zh	帮我一下，打开闹钟	ALARM	author-written template expansion; no audio; overlaps development fixtures
+zh	我需要计时器	TIMER	author-written template expansion; no audio; overlaps development fixtures
+zh	Rill，我需要计时器	TIMER	author-written template expansion; no audio; overlaps development fixtures
+zh	麻烦你，我需要计时器	TIMER	author-written template expansion; no audio; overlaps development fixtures
+zh	帮我一下，我需要计时器	TIMER	author-written template expansion; no audio; overlaps development fixtures

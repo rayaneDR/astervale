@@ -14,7 +14,7 @@ public final class IntentEngine {
     private static final Pattern NEGATION=Pattern.compile("(?iu)(\\b(don't|dont|do not|never|not|ne|pas|no|non|nao|não|nicht|yapma|açma|degil|mat|machi)\\b|لا ت|لا ا|ما .*ش|مات|متفتح|(?<!\\p{L})не\\s|नहीं|मत |不要|别|لا تشغل)");
     public IntentEngine(Reader input) throws IOException {
         try(BufferedReader reader=new BufferedReader(input)){String line;while((line=reader.readLine())!=null){
-            if(line.isBlank()||line.startsWith("#"))continue;String[] p=line.split("\t",4);if(p.length!=4)throw new IOException("Invalid rule row");
+            if(line.trim().isEmpty()||line.startsWith("#"))continue;String[] p=line.split("\t",4);if(p.length!=4)throw new IOException("Invalid rule row");
             rules.add(new Rule(p[0],Action.valueOf(p[1]),Pattern.compile(p[2],Pattern.CASE_INSENSITIVE|Pattern.UNICODE_CASE),p[3]));
         }}
     }

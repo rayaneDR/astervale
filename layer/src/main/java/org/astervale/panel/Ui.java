@@ -13,7 +13,7 @@ final class Ui {
     static LinearLayout page(Activity a){
         a.getWindow().setDecorFitsSystemWindows(false);
         ScrollView scroll=new ScrollView(a);scroll.setFillViewport(true);scroll.setBackgroundColor(BG);
-        LinearLayout box=new LinearLayout(a);box.setOrientation(1);box.setPadding(dp(a,24),dp(a,24),dp(a,24),dp(a,28));scroll.addView(box);
+        LinearLayout box=new LinearLayout(a);box.setOrientation(LinearLayout.VERTICAL);box.setPadding(dp(a,24),dp(a,24),dp(a,24),dp(a,28));scroll.addView(box);
         scroll.setOnApplyWindowInsetsListener((v,i)->{android.graphics.Insets b=i.getInsets(WindowInsets.Type.systemBars()|WindowInsets.Type.ime());v.setPadding(b.left,b.top,b.right,b.bottom);return i;});
         a.setContentView(scroll);return box;
     }

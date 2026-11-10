@@ -1,0 +1,4 @@
+<resources>
+    <string name="layer_name">معاينة AsterVale</string>
+    <string name="memory_usage">ذاكرة عملية التطبيق: %1$d كيلوبايت. تشمل الواجهة والرفيق في عملية واحدة. وقت العينة: %2$s.\nلم يُقَس استهلاك الرفيق للبطارية والمعالج أو معدل الإطارات والحرارة.</string>
+</resources>

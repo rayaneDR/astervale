@@ -11,7 +11,7 @@
         <intent><action android:name="android.speech.RecognitionService"/></intent>
         <intent><action android:name="android.intent.action.TTS_SERVICE"/></intent>
     </queries>
-    <application android:label="AsterVale Preview" android:icon="@drawable/astervale_logo" android:theme="@style/AsterValeTheme" android:allowBackup="false" android:supportsRtl="true" android:usesCleartextTraffic="false">
+    <application android:label="@string/layer_name" android:icon="@drawable/astervale_logo" android:theme="@style/AsterValeTheme" android:allowBackup="false" android:dataExtractionRules="@xml/data_extraction_rules" android:supportsRtl="true" android:usesCleartextTraffic="false">
         <activity android:name=".LayerHomeActivity" android:exported="true">
             <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
             <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.HOME"/><category android:name="android.intent.category.DEFAULT"/></intent-filter>

@@ -52,4 +52,22 @@ with (data/'benchmark.tsv').open('w',encoding='utf-8',newline='') as file:
     for lang,text in [('en','Open Wi-Fi and Bluetooth'),('ary-Latn','3afak zid volume et luminosité'),('fr','Active Bluetooth puis ouvre les paramètres'),('en','The word battery appears in this article')]:
         writer.writerow([lang,text,'UNKNOWN'])
 (data/'LANGUAGES.json').write_text(json.dumps({'default':'en','locales':list(languages),'status':'Curated routing lexicon. Not universal language recognition, speech or LLM benchmark. Native-speaker review pending.','rule_count':len(languages)*len(actions)},indent=2)+'\n')
+wrappers={
+ 'en':['{s}','Rill, {s}','{s}, please','Can you help? {s}'],
+ 'ar':['{s}','يا ريل، {s}','{s} لو سمحت','أحتاج مساعدة: {s}'],
+ 'ary':['{s}','آ ريل، {s}','عافاك {s}','واخا تعاونّي؟ {s}'],
+ 'ary-Latn':['{s}','Rill, {s}','3afak {s}','wach t9der t3awenni? {s}'],
+ 'fr':['{s}','Rill, {s}','{s}, s’il te plaît','Tu peux m’aider ? {s}'],
+ 'es':['{s}','Rill, {s}','{s}, por favor','¿Me ayudas? {s}'],
+ 'pt':['{s}','Rill, {s}','{s}, por favor','Podes ajudar? {s}'],
+ 'ru':['{s}','Рилл, {s}','{s}, пожалуйста','Помоги, пожалуйста: {s}'],
+ 'tr':['{s}','Rill, {s}','Lütfen {s}','Yardım eder misin? {s}'],
+ 'hi':['{s}','रिल, {s}','कृपया {s}','मदद करो: {s}'],
+ 'zh':['{s}','Rill，{s}','麻烦你，{s}','帮我一下，{s}'],
+}
+with (data/'command-corpus.tsv').open('w',encoding='utf-8',newline='') as file:
+    writer=csv.writer(file,delimiter='\t',lineterminator='\n');writer.writerow(['language','text','route','provenance'])
+    for lang,examples in requests.items():
+        for i,sentence in enumerate(examples[:9]):
+            for template in wrappers[lang]:writer.writerow([lang,template.format(s=sentence),actions[i],'author-written template expansion; no audio; overlaps development fixtures'])
 print('Wrote',len(languages)*len(actions),'rules and',sum(map(len,requests.values()))+4,'evaluation cases')

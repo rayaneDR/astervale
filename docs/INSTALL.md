@@ -19,4 +19,6 @@ sh /data/adb/modules/astervale_layer/manage.sh restore printing
 
 Only printing and the Lineage recorder are allowlisted. No uninstall/data deletion. Already-disabled packages are not claimed. No CPU/GPU/thermal/ZRAM writes exist. The APK's saved Game Mode choices are preferences, not evidence of performance tuning.
 
+The separate art pack contains an original 1080×2400 wallpaper, two WAV sounds and a boot-animation asset. Select wallpaper/sounds manually if desired. **The art pack and its inner bootanimation.zip are not flashable packages.** Boot-animation installation is deferred until the exact ROM mount path and rollback are reviewed.
+
 Uninstall the APK normally; stop the companion and select Trebuchet before uninstalling if you made AsterVale your home. Revoke overlay/microphone permissions through Android Settings. AsterVale never changes boot, recovery, vbmeta, system partition or bootloader lock state in Plan B.

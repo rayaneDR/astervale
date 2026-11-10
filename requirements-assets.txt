@@ -1,0 +1,2 @@
+# Optional original asset generation only; APK/source tests need no Python packages.
+Pillow==12.3.0

@@ -1,0 +1,4 @@
+<resources>
+    <string name="layer_name">AsterVale Preview</string>
+    <string name="memory_usage">Current app-process PSS: %1$d KiB. Includes UI and companion in one process. Sample at %2$s.\nCompanion-specific battery, CPU, FPS and temperature: unmeasured.</string>
+</resources>
