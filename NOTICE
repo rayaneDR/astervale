@@ -1,0 +1,6 @@
+AsterVale original source: Copyright 2026 AsterVale contributors. Apache-2.0.
+LineageOS and Exynos9611Development sources retain their original notices.
+No kernel source is vendored here; upstream Linux/Samsung kernel remains GPL-2.0-only.
+Manrope and Noto Sans Arabic: SIL Open Font License 1.1; licenses alongside font files.
+No proprietary Samsung or Google binaries are distributed.
+Downloaded upstream source snapshots are ignored research files, not product source.

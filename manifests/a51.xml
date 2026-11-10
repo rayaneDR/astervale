@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="av-Development" fetch="https://github.com/Exynos9611Development/" />
+  <remote name="av-los" fetch="https://github.com/LineageOS/" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="av-los" revision="9e095907956abc98cf94eab56dcdc1e40fc44642" />
+  <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="av-los" revision="372d43a231237a8134b2cc4ec6659089e22f4f59" />
+  <project path="hardware/samsung_slsi/nfc" name="android_hardware_samsung_slsi_nfc" remote="av-los" revision="88490b4408246e6c10ef1a6942844796f66dee5e" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="av-los" revision="033d40050c5e23120a5dd0612270cb137a16b300" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="av-los" revision="cc50f101dff4b4480d810e13bea7bee1754cf01d" />
+  <project path="hardware/samsung_slsi-linaro/codec2" name="android_hardware_samsung_slsi-linaro_codec2" remote="av-los" revision="11c7da92a458d6e50e8e95c40d90fd2ec475b3d5" />
+  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="av-los" revision="3626ce714e847cae429883a612d4ec9de79389e7" />
+  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="av-los" revision="11fa20fdd7fa165ab82fb903a14198f2e67e9691" />
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="av-los" revision="7a7c982313e0821898ef9c696d3e12da95cfe037" />
+  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="av-los" revision="7434937774ed0515758acd5a8109b9dfb3898025" />
+  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="av-los" revision="15ab30812af9fe39fff2ae3cd867d7e954c73881" />
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="av-los" revision="a23ed82b3f3859aa9e0207036b0d0e98119b959b" />
+  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="av-Development" revision="23f87fb36310eee5e8ec5e27a3a0cd089209cbb4" />
+  <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="av-Development" revision="85f4c8564bd0af659556e565c56869746d5aa90e" />
+  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="av-los" revision="2658c386ceb4f58e78fa0e985d9a8aec073972e7" />
+  <project path="device/samsung/a51" name="android_device_samsung_a51" remote="av-Development" revision="7629f3834c7658f0f1861f01213fe482405e4482" />
+</manifest>
