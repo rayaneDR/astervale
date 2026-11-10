@@ -58,18 +58,19 @@ public final class BubbleService extends Service {
     private void open(){startActivity(new Intent(this,RillActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));}
     private final class Companion extends View {
         private final Paint paint=new Paint(Paint.ANTI_ALIAS_FLAG);
+        private final Path silhouette=new Path();
         boolean blink=false;
         private float downX,downY;private int startX,startY;private boolean dragged;
         private final GestureDetector gestures;
-        Companion(){super(BubbleService.this);setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_YES);setFocusable(true);
+        Companion(){super(BubbleService.this);setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_YES);setFocusable(true);setClickable(true);setLongClickable(true);setOnLongClickListener(v->{menu();return true;});
             gestures=new GestureDetector(BubbleService.this,new GestureDetector.SimpleOnGestureListener(){
                 @Override public boolean onDown(MotionEvent e){return true;}
-                @Override public boolean onSingleTapConfirmed(MotionEvent e){if(!dragged){performClick();open();}return true;}
+                @Override public boolean onSingleTapConfirmed(MotionEvent e){if(!dragged)performClick();return true;}
                 @Override public boolean onDoubleTap(MotionEvent e){stopSelf();return true;}
-                @Override public void onLongPress(MotionEvent e){if(!dragged)menu();}
+                @Override public void onLongPress(MotionEvent e){if(!dragged)performLongClick();}
             });
         }
-        @Override public boolean performClick(){super.performClick();return true;}
+        @Override public boolean performClick(){super.performClick();open();return true;}
         @Override public boolean onTouchEvent(MotionEvent e){
             if(e.getActionMasked()==MotionEvent.ACTION_DOWN){downX=e.getRawX();downY=e.getRawY();startX=layout.x;startY=layout.y;dragged=false;}
             if(e.getActionMasked()==MotionEvent.ACTION_MOVE){float dx=e.getRawX()-downX,dy=e.getRawY()-downY;if(getResources().getConfiguration().getLayoutDirection()==View.LAYOUT_DIRECTION_RTL)dx=-dx;if(Math.hypot(dx,dy)>12)dragged=true;if(dragged){Rect bounds=manager.getCurrentWindowMetrics().getBounds();layout.x=Math.max(0,Math.min(bounds.width()-getWidth(),startX+(int)dx));layout.y=Math.max(0,Math.min(bounds.height()-getHeight(),startY+(int)dy));manager.updateViewLayout(this,layout);}}
@@ -79,7 +80,7 @@ public final class BubbleService extends Service {
         @Override protected void onDraw(Canvas c){
             super.onDraw(c);float w=getWidth(),h=getHeight();
             paint.setColor(character==1?Color.rgb(175,112,85):character==2?Color.rgb(104,119,152):Ui.GREEN);
-            if(character==2){Path k=new Path();k.moveTo(w*.5f,h*.08f);k.lineTo(w*.92f,h*.5f);k.lineTo(w*.5f,h*.92f);k.lineTo(w*.08f,h*.5f);k.close();c.drawPath(k,paint);}else c.drawRoundRect(w*.06f,h*.06f,w*.94f,h*.94f,character==1?w*.3f:w*.42f,h*.42f,paint);
+            if(character==2){silhouette.reset();silhouette.moveTo(w*.5f,h*.08f);silhouette.lineTo(w*.92f,h*.5f);silhouette.lineTo(w*.5f,h*.92f);silhouette.lineTo(w*.08f,h*.5f);silhouette.close();c.drawPath(silhouette,paint);}else c.drawRoundRect(w*.06f,h*.06f,w*.94f,h*.94f,character==1?w*.3f:w*.42f,h*.42f,paint);
             paint.setColor(Color.rgb(245,241,233));float eyeY=h*.43f;
             if(blink||state.equals("sleepy")){paint.setStrokeWidth(w*.04f);c.drawLine(w*.3f,eyeY,w*.4f,eyeY,paint);c.drawLine(w*.6f,eyeY,w*.7f,eyeY,paint);}else{c.drawCircle(w*.35f,eyeY,w*.045f,paint);c.drawCircle(w*.65f,eyeY,w*.045f,paint);}
             paint.setStyle(Paint.Style.STROKE);paint.setStrokeWidth(w*.03f);
