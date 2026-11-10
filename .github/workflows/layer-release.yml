@@ -17,7 +17,7 @@ jobs:
       - name: Check, build and package
         run: |
           python3 -m unittest discover -s tests -v
-          bash gradlew --no-daemon :layer:assembleDebug
+          bash gradlew --no-daemon :layer:assembleDebug :layer:lintDebug
           python3 -m pip install --only-binary=:all: -r requirements-assets.txt
           python3 tools/create_brand_assets.py
           python3 tools/package_layer.py

@@ -21,7 +21,7 @@ jobs:
           node --check site/app.js
           node --check site/preview.js
       - name: Build standalone APK only
-        run: bash gradlew --no-daemon :layer:assembleDebug
+        run: bash gradlew --no-daemon :layer:assembleDebug :layer:lintDebug
       - name: Run actual Java language matcher
         run: |
           mkdir -p output/classes
