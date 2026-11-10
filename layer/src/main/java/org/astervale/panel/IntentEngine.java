@@ -22,7 +22,7 @@ public final class IntentEngine {
         String value=Normalizer.normalize(raw,Normalizer.Form.NFKC).toLowerCase(Locale.ROOT).replace('’','\'').trim();
         String polarity=value.replace("do not disturb","").replace("ne pas déranger","").replace("no molestar","").replace("não perturbar","").replace("не беспокоить","");
         if(value.length()>512||value.isEmpty()||NEGATION.matcher(polarity).find())return unknown(preferredLocale);
-        if(value.matches(".*\\b(and|then|puis|et)\\b.*")||value.contains("appears in this article"))return unknown(preferredLocale);
+        if(value.matches(".*\\b(and|then|puis|et|word|article|quoted|definition|meaning|explain|why)\\b.*")||value.contains("\""))return unknown(preferredLocale);
         LinkedHashMap<Action,List<Rule>> hits=new LinkedHashMap<>();
         for(Rule r:rules)if(r.pattern.matcher(value).find())hits.computeIfAbsent(r.action,k->new ArrayList<>()).add(r);
         // Generic settings words may qualify a specific control (for example 蓝牙设置).
