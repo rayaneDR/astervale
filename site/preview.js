@@ -27,6 +27,10 @@
   state.lang=['en','ar'].includes(state.lang)?state.lang:'en';
   state.scale=['1','1.3','2'].includes(String(state.scale))?String(state.scale):'1';
   state.profile=['Balanced','Battery saver','Gaming'].includes(state.profile)?state.profile:'Balanced';
+  state.setup=Number.isInteger(state.setup)&&state.setup>=0&&state.setup<=2?state.setup:0;
+  state.icons=['Rounded','Square','Compact'].includes(state.icons)?state.icons:'Rounded';
+  state.game=['demo.racer','demo.puzzle'].includes(state.game)?state.game:'demo.racer';
+  for(const key of ['motion','wifi','bluetooth','focus','airplane','overlay','assistant','notifications'])state[key]=typeof state[key]==='boolean'?state[key]:defaults[key];
   state.profiles=state.profiles && typeof state.profiles==='object' && !Array.isArray(state.profiles)?state.profiles:{};
   state.brightness=Math.min(100,Math.max(10,Number(state.brightness)||68));
   const t=s=>state.lang==='ar'?(translations[s] || s):s;
