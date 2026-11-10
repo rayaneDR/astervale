@@ -1,30 +1,43 @@
 # AsterVale
 
-A custom Android 16 project for Samsung Galaxy A51 **SM-A515F / a51 / Exynos 9611**.
+An original, zero-budget Android 16 layer project for Samsung Galaxy A51 **SM-A515F / a51 / Exynos 9611**.
 
-**Source and interactive prototype only. No flashable AsterVale ROM has been built. Every Android feature is untested on hardware.** Never flash the source archive or website archive.
+**Plan B is the default: a standalone APK and optional root-manager module over an existing community ROM. Hardware behavior is untested. No full AsterVale ROM has been compiled.**
 
-![AsterVale prototype](docs/screenshots/desktop.png)
+![Browser prototype, not Android screenshot](docs/screenshots/desktop.png)
 
-## Try the design
+## Try it
 
-Run `python -m http.server 4173 --directory site --bind 127.0.0.1` and open [the local preview](http://127.0.0.1:4173/preview.html). No package installation or API key is needed. Nine screens, light/dark themes, Arabic/RTL, font scaling, quick settings, per-app profile storage, assistant consent and setup choices. All device data in the preview is illustrative.
+- [Interactive design preview](https://rayanedr.github.io/astervale/preview.html)
+- [Website](https://rayanedr.github.io/astervale/)
+- [Layer prereleases](https://github.com/rayaneDR/astervale/releases)
+- [Installation and removal](docs/INSTALL.md)
 
-## Project state
+The nine-screen browser prototype supports light/dark, Arabic/RTL, text scaling, quick-setting demos, per-game profile preferences and assistant consent/confirmation. It reads no real notifications, device settings or API keys. Locally: `python -m http.server 4173 --directory site --bind 127.0.0.1`.
 
-| Area | Evidence label | What exists |
+## What exists
+
+| Component | Artifact label | Evidence / limitation |
 | --- | --- | --- |
-| Web prototype | built | Runnable browser source; see validation report for checks actually run |
-| Design system | built | Tokens, original icons/wallpaper, OFL fonts |
-| Device build | untested | Pinned source manifest and Linux build orchestration; compilation blocked on host and blobs |
-| Native control panel | untested | Soong Java source; not compiled |
-| CPU/GPU/thermal/ZRAM | untested | Read-only discovery and policy specification; no tuning enabled |
-| AI assistant | untested | Local action preview source; remote inference and notification summarization not integrated |
-| Editions / OTA | untested | Product selection and release gates; no published update |
-| Owner testing | untested | No test reports submitted |
+| Original design + web prototype | built | Browser flow checks, screenshots; not native SystemUI |
+| Standalone home + drawer | untested | Native source; check validation report for APK build result; not a complete Launcher3 fork |
+| Rill local command assistant | built / untested | Actual Java matcher tested on host; Android actions/voice untested |
+| Floating Seed / Pebble / Kite companion | untested | Drag/edge snap/tap/menu, optional overlay; no screen reading |
+| Optional root-manager module | built / untested | Packaged; explicit reversible debloat only, no boot-time tuning |
+| Game profiles | untested | Preferences only; no CPU/GPU/thermal changes or FPS claims |
+| On-device speech / offline TTS | untested | Android service/voice availability required; no bundled ASR model |
+| Model/cloud integration | untested | Not implemented; no general-purpose LLM or cloud requests |
+| Global localization | untested | 11 language/script command variants, Arabic panel resources; full app translation incomplete |
+| Full ROM and OTA | untested | Pinned source preparation; no adequate free builder or owner firmware/test evidence |
 
-Read [STATUS](STATUS.md), [base research](docs/BASE_RESEARCH.md), [build setup](docs/BUILD.md), [recovery](docs/RECOVERY.md), [features](docs/FEATURES.md), [AI policy](docs/AI.md), [validation](docs/VALIDATION.md) and [contributing](CONTRIBUTING.md).
+Rill defaults to English and has a conservative local intent router with explanations in English, Arabic, Moroccan Darija Arabic/Arabizi, French, Spanish, Portuguese, Russian, Turkish, Hindi and Chinese. [Actual 125-case text benchmark with failures](docs/LANGUAGE_BENCHMARK.md). This does not establish speech quality, general language support or A51 latency.
 
-Initial base: [LineageOS 23.2](https://github.com/LineageOS/android/tree/lineage-23.2) plus [Exynos9611Development](https://github.com/Exynos9611Development). Independent unofficial project, unaffiliated with Samsung, Google or LineageOS. Kernel stays on the community manifest's **AOSP** branch; no blind branch/version substitution. Android 17 is deferred until baseline boot and a source-level compatibility audit.
+The [upstream community feed](https://github.com/Exynos9611Development/OTA/blob/lineage/a51/ota.json) lists a February 14, 2026 LineageOS 23.2 A51 build. Its download responded HTTP 200 with the expected byte count on 2026-11-10. We have not downloaded, flashed or tested it. It is about nine months old, so it is not advertised as a recent security baseline. See [Plan B and its limits](docs/PLAN_B.md).
 
-Original project source is Apache-2.0; upstream kernel remains GPL-2.0-only and all third-party notices remain intact. Fonts are OFL. No proprietary vendor repository is mirrored or included in our manifest. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+Read [STATUS](STATUS.md), [design system](DESIGN.md), [base research](docs/BASE_RESEARCH.md), [feature ranking](docs/FEATURE_RESEARCH.md), [local AI research](docs/AI_RESEARCH.md), [Plan A build notes](docs/BUILD.md), [recovery](docs/RECOVERY.md), [validation](docs/VALIDATION.md) and [contributing](CONTRIBUTING.md).
+
+## Build the APK for free
+
+Use JDK 21, Android SDK 36 / Build Tools 36 and the checked-in Gradle wrapper. `gradlew.bat --no-daemon :layer:assembleDebug` on Windows, or `bash gradlew --no-daemon :layer:assembleDebug` on Linux. This compiles only the small app, not AOSP. `python tools/package_layer.py` packages the optional module and copies an existing built APK into `dist/`. All generated binaries stay outside Git.
+
+Initial APKs use a debug/test certificate and preview ID; CI artifacts can have different test certificates. They are not a production updater channel. No secrets, Samsung blobs or Google apps are included. [Full licensing notices](NOTICE): original source Apache-2.0, upstream kernel GPLv2, fonts OFL. Independent project, unaffiliated with Samsung, Google, Apple or LineageOS.

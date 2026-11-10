@@ -7,6 +7,7 @@ import android.graphics.*;
 import android.os.*;
 import android.provider.Settings;
 import android.view.*;
+import android.widget.PopupMenu;
 
 /** Original low-draw-rate companion. No screen access, game detection or microphone. */
 public final class BubbleService extends Service {
