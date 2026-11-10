@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AsterVale</string>
+    <string name="title">هاتفك، بعناية.</string>
+    <string name="untested">مصدر قيد التطوير · لم يُختبر على أندرويد</string>
+    <string name="profile">ملف خاص بالتطبيق</string>
+    <string name="package_hint">اسم حزمة تطبيق مثبّت</string>
+    <string name="save_profile">حفظ اختيار الملف</string>
+    <string name="balanced">متوازن</string>
+    <string name="battery">توفير الطاقة</string>
+    <string name="gaming">ألعاب</string>
+    <string name="profile_notice">تُحفظ الاختيارات فقط. ضبط العتاد غير متاح حتى تنفيذ واجهة الجهاز واختبارها. تُحفظ الحماية الحرارية دائمًا.</string>
+    <string name="assistant">تفعيل لوحة المساعد المحلي</string>
+    <string name="assistant_notice">معطّل افتراضيًا. إجراءات محلية فقط، دون نموذج أو إرسال بيانات أو مفاتيح أو وصول للإشعارات.</string>
+    <string name="open_battery">مراجعة إعدادات البطارية</string>
+    <string name="open_dnd">مراجعة إعدادات المقاطعات</string>
+    <string name="open_app">مراجعة فتح التطبيق</string>
+    <string name="action_title">السماح بهذا الإجراء؟</string>
+    <string name="action_battery">فتح إعدادات البطارية. ستختار التغييرات بنفسك دون تغيير تلقائي.</string>
+    <string name="action_dnd">فتح إعدادات المقاطعات. ستختار الأذونات والتغييرات بنفسك.</string>
+    <string name="action_launch">فتح التطبيق المثبّت الذي اخترته صراحة. لن تُنفّذ أوامر أو شيفرة من نموذج.</string>
+    <string name="confirm">متابعة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="saved">حُفظ الاختيار دون تغيير العتاد.</string>
+    <string name="invalid_package">أدخل اسم حزمة تطبيق مثبّت قابل للفتح.</string>
+    <string name="unavailable">هذا الإجراء غير متاح على جهازك.</string>
+</resources>

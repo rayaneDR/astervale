@@ -1,0 +1,5 @@
+<resources>
+    <!-- Candidate overlay: resource existence and overlay policy require target-branch compilation. -->
+    <color name="system_accent1_500">#315b45</color>
+    <color name="system_accent1_200">#b5d3a3</color>
+</resources>

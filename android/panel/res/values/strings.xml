@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AsterVale</string>
+    <string name="title">Your phone, thoughtfully.</string>
+    <string name="untested">Development source · Android behavior untested</string>
+    <string name="profile">Per-app profile</string>
+    <string name="package_hint">Installed app package (for example org.example.game)</string>
+    <string name="save_profile">Save profile choice</string>
+    <string name="balanced">Balanced</string>
+    <string name="battery">Battery saver</string>
+    <string name="gaming">Gaming</string>
+    <string name="profile_notice">Choices are saved only. Hardware tuning is unavailable until the device adapter is implemented and tested. Thermal protection is always preserved.</string>
+    <string name="assistant">Enable local assistant panel</string>
+    <string name="assistant_notice">Disabled by default. This panel uses local actions only. No model, cloud requests, API keys or notification access.</string>
+    <string name="open_battery">Review battery settings</string>
+    <string name="open_dnd">Review interruption settings</string>
+    <string name="open_app">Review app launch</string>
+    <string name="action_title">Allow this action?</string>
+    <string name="action_battery">Open Android battery settings. You will choose changes there; no setting changes automatically.</string>
+    <string name="action_dnd">Open Android interruption settings. You will choose permissions and changes there.</string>
+    <string name="action_launch">Launch the explicitly selected installed application. No commands or model-provided code will run.</string>
+    <string name="confirm">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="saved">Choice saved. No hardware tuning applied.</string>
+    <string name="invalid_package">Enter the package name of a launchable installed app.</string>
+    <string name="unavailable">This action is unavailable on this device.</string>
+</resources>

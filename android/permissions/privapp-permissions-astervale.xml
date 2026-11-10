@@ -1,0 +1,4 @@
+<permissions>
+    <!-- Deliberately empty: no privileged setting, network, notification or root access granted. -->
+    <privapp-permissions package="org.astervale.panel" />
+</permissions>

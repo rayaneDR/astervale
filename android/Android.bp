@@ -1,0 +1,21 @@
+soong_namespace {}
+
+android_app {
+    name: "AsterValePanel",
+    srcs: ["panel/src/**/*.java"],
+    manifest: "panel/AndroidManifest.xml",
+    resource_dirs: ["panel/res"],
+    platform_apis: true,
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+    optimize: { enabled: true },
+}
+
+runtime_resource_overlay {
+    name: "AsterValeTheme",
+    manifest: "overlay/AndroidManifest.xml",
+    resource_dirs: ["overlay/res"],
+    product_specific: true,
+    sdk_version: "current",
+}
